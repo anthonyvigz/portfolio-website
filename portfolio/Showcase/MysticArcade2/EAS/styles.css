@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'Silkscreen';
+	src: url(slkscr.ttf);
+}
+
+
+body {
+	background: #262626;
+	text-align: center;
+	height: 1400px;
+}
+
+.mainbox {
+	background: #a3c9c7;
+	margin: auto;
+	width: 1000px;
+	height: 1300px;
+	transform: translateY(5%);
+	border-radius: 25px;
+}
+.secondbox {
+  justify-content: center;
+  margin: 5px;
+  text-align: center;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Silkscreen';
+	padding-top: 50px;
+}
+
+button {
+	display: flex-start;
+	font-size: 25px;
+	padding: 20px 40px 20px 40px;
+	border: solid white 4px;
+	margin: 20px;
+	background: #262626;
+	color: white;
+  	transition: 1.0s;
+  	font-family: 'Silkscreen';
+  	box-shadow: 2px 2px 3px #00000020;
+}
+
+#erase {
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  margin-left: 10px;
+}
+
+#reset {
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  margin: 20px;
+}
+
+#reset:hover {
+  background: red;
+  transition: 1.0s;
+}
+
+#howmany {
+  display: flex;
+  font-size: 25px;
+  font-family: 'Silkscreen';
+  justify-content: center;
+  color: white;
+}
+
+button:hover {
+	background: #0e256e;
+ 	 transition: 0.5s;
+}
+
+button:active {
+	background: #0e4bd8;
+  transition: 0.5s;
+}
+
+.form {
+	padding: 20px;
+	color: lightblue;
+}
+
+.table {
+	display: table;
+ 	 width: 700px;
+ 	height: 700px;
+ 	margin: auto;
+   transform: translateY(3%);
+   box-shadow: 3px 3px 4px #00000020;
+   transition: 0.5s;
+}
+
+.row {
+	display: table-row;
+}
+
+.cell {
+	display: table-cell;
+	background: #ffffff30;
+	border: solid white 0.1px;
+}
