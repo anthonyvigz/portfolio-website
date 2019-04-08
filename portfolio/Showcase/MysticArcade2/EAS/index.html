@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Etch A Sketch</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body id="fullbody">
+	<div class="mainbox">
+		<h1>Etch a Sketch!</h1>
+		<div class='pens' id='pens'>
+    	<button id='black' value='off'>Black Pen</button>
+    	<button id='party' value='off'>Party Pen</button>
+		</div>  
+	<div class="secondbox">	
+	<button id='erase' value='off'>Eraser</button>
+    <button id='reset' value='off'>Reset</button>
+	</div>
+		<div class="form">
+			<label id="howmany" for="numberField">How many boxes tall and wide?</label><br>
+			<input type = "text" id = "numberField" class = "numberField">
+			<input type = "submit" value = "Submit!"
+				class = "numSubmit" id = "submit">
+		</div>	
+		<div id="table" class="table">
+		</div>
+	</div>
+</body>
+<script src="etch.js"></script>
+</html>
